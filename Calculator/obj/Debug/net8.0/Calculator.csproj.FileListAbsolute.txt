@@ -1,0 +1,14 @@
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/bin/Debug/net8.0/Calculator
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/bin/Debug/net8.0/Calculator.deps.json
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/bin/Debug/net8.0/Calculator.runtimeconfig.json
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/bin/Debug/net8.0/Calculator.dll
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/bin/Debug/net8.0/Calculator.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/obj/Debug/net8.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/obj/Debug/net8.0/Calculator.AssemblyInfoInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/obj/Debug/net8.0/Calculator.AssemblyInfo.cs
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/obj/Debug/net8.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/obj/Debug/net8.0/Calculator.dll
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/obj/Debug/net8.0/refint/Calculator.dll
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/obj/Debug/net8.0/Calculator.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/obj/Debug/net8.0/Calculator.genruntimeconfig.cache
+/Users/marekdadej/Desktop/Projekty/CS/Calculator/obj/Debug/net8.0/ref/Calculator.dll

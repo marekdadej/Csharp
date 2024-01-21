@@ -1,0 +1,14 @@
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/bin/Debug/net8.0/HelloWorld
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/bin/Debug/net8.0/HelloWorld.deps.json
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/bin/Debug/net8.0/HelloWorld.runtimeconfig.json
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/bin/Debug/net8.0/HelloWorld.dll
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/bin/Debug/net8.0/HelloWorld.pdb
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/obj/Debug/net8.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfoInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfo.cs
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/obj/Debug/net8.0/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/obj/Debug/net8.0/HelloWorld.dll
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/obj/Debug/net8.0/refint/HelloWorld.dll
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/obj/Debug/net8.0/HelloWorld.pdb
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/obj/Debug/net8.0/HelloWorld.genruntimeconfig.cache
+/Users/marekdadej/Desktop/Projekty/CS/HelloWorld/obj/Debug/net8.0/ref/HelloWorld.dll

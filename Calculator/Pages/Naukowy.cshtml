@@ -1,0 +1,85 @@
+@page
+@model Calculator.Pages.NaukowyModel
+@{
+    ViewData["Title"] = "- Naukowy";
+}
+
+<h1>Kalkulator Naukowy</h1><br>
+
+<form method="post">
+    <div class="form-group">
+        <label for="a">Liczba A:</label>
+        <input asp-for="Calculator.a" class="form-control" step="any" />
+    </div>
+
+    <div class="form-group">
+        <label for="oper">Operacja:</label>
+        <select asp-for="Calculator.oper" class="form-control" id="oper">
+            <option value="sin">Sinus</option>
+            <option value="cos">Cosinus</option>
+            <option value="tg">Tangens</option>
+            <option value="ctg">Cotangens</option>
+            <option value="potega">Potęga</option>
+            <option value="pierwiastek">Pierwiastek</option>
+            <option value="log">Logarytm</option>
+            <option value="delta">Delta (Δ)</option>
+            <option value="rozwiaz">Rozwiąż równanie kwadratowe</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="b">Liczba B:</label>
+        <input asp-for="Calculator.b" class="form-control" step="any" />
+    </div>
+
+    @if (Model.Calculator != null && Model.Calculator.ShowCField)
+    {
+        <div class="form-group" id="c-field">
+            <label for="c">Liczba C (tylko dla Delty):</label>
+            <input asp-for="Calculator.c" class="form-control" step="any" />
+        </div>
+    }
+
+    <br><button type="submit" class="btn btn-primary">Oblicz</button><br><br>
+</form>
+
+@if (Model.Calculator != null)
+{
+    @if (!string.IsNullOrEmpty(Model.Calculator.ErrorMessage))
+    {
+        <div class="alert alert-danger">
+            <strong>Błąd:</strong> @Model.Calculator.ErrorMessage
+        </div>
+    }
+    else if (Model.Calculator.oper != "rozwiaz")
+    {
+        <p>Wynik: @Model.Calculator.wynik</p>
+    }
+    else if (Model.Calculator.x1.HasValue && Model.Calculator.x2.HasValue)
+    {
+        <h3>Pierwiastki równania kwadratowego:</h3>
+        <p>x1 = @Model.Calculator.x1</p>
+        <p>x2 = @Model.Calculator.x2</p>
+    }
+}
+
+<script>
+    function toggleCField() {
+        var oper = document.getElementById("oper").value;
+        var cField = document.getElementById("c-field");
+
+        if (oper === "delta") {
+            cField.style.display = "block";
+        } else {
+            cField.style.display = "none";
+        }
+    }
+
+    document.getElementById("oper").addEventListener("change", toggleCField);
+    document.addEventListener("DOMContentLoaded", function() {
+        toggleCField();
+    });
+</script>
+
+
+

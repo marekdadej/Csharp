@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Strona główna";
+}
+
+<h2>Posty z Bloga</h2>
+
+@if (Model.SomeValue != null)
+{
+    <p>@Model.SomeValue</p>
+}
+
+@foreach (var post in Model.Posts)
+{
+    <div>
+        <h3>@post.Title</h3>
+        <p>@post.Content</p>
+        <p>Autor: @post.User.FirstName @post.User.LastName, Data: @post.DatePosted</p>
+
+        <h4>Komentarze:</h4>
+        @foreach (var comment in post.Comments)
+        {
+            <p>@comment.User.FirstName @comment.User.LastName: @comment.Content</p>
+        }
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            <form method="post" asp-page-handler="AddComment">
+                <input type="hidden" name="PostId" value="@post.PostId" />
+                <textarea name="Content" placeholder="Dodaj komentarz"></textarea>
+                <input type="submit" value="Dodaj Komentarz" />
+            </form>
+        }
+    </div>
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <form method="post" asp-page-handler="AddPost">
+        <input type="text" name="Title" placeholder="Tytuł" />
+        <textarea name="Content" placeholder="Treść posta"></textarea>
+        <input type="submit" value="Dodaj Post" />
+    </form>
+}

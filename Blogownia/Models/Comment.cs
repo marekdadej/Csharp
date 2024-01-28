@@ -1,5 +1,5 @@
 using System;
-using System.ComponentModel.DataAnnotations; 
+using System.ComponentModel.DataAnnotations;
 
 namespace Blogownia.Models
 {
@@ -14,9 +14,8 @@ namespace Blogownia.Models
 
         // Relacja z User i Post
         public int UserId { get; set; }
-        public User User { get; set; } = string.Empty;
+        public User User { get; set; } // Poprawiono typ na User
         public int PostId { get; set; }
-        public Post Post { get; set; } = string.Empty;
+        public Post Post { get; set; } // Poprawiono typ na Post
     }
 }
-

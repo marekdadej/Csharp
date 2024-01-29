@@ -1,0 +1,20 @@
+@model List<Qizlo.Models.Question>
+
+<h2>Quiz</h2>
+
+<form method="post" asp-action="SubmitQuiz">
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <div>
+            <h3>@Model[i].QuestionText</h3>
+            @for (int j = 0; j < Model[i].Choices.Length; j++)
+            {
+                <div>
+                    <input type="radio" name="@("answers[" + i + "]")" value="@j" />
+                    @Model[i].Choices[j]
+                </div>
+            }
+        </div>
+    }
+    <button type="submit">Wyślij odpowiedzi</button>
+</form>

@@ -1,86 +1,85 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Blogownia.Data;
 using Blogownia.Models;
 
-public class IndexModel : PageModel
+namespace Blogownia.Pages
 {
-    private readonly ApplicationDbContext _context;
-
-    public IndexModel(ApplicationDbContext context)
+    public class IndexModel : PageModel
     {
-        _context = context;
-    }
+        private readonly ApplicationDbContext _context;
 
-    public IList<Post> Posts { get; set; } = new List<Post>();
-
-    public async Task OnGetAsync()
-    {
-        Posts = await _context.Posts
-            .Include(p => p.User)
-            .Include(p => p.Comments)
-                .ThenInclude(c => c.User)
-            .ToListAsync();
-    }
-
-    public IActionResult OnPostAddPost(string title, string content)
-    {
-        if (!User.Identity.IsAuthenticated)
+        public IndexModel(ApplicationDbContext context)
         {
-            return Unauthorized();
+            _context = context;
         }
 
-        var user = _context.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
-        if (user == null)
+        public IList<Post> Posts { get; set; }
+
+        public async Task OnGetAsync()
         {
-            // Możliwe, że warto tutaj dodać jakiś komunikat błędu lub logikę obsługi błędu.
-            return RedirectToPage("Error"); // Przykładowa strona błędu
+            Posts = await _context.Posts
+                .Include(p => p.User)
+                .Include(p => p.Comments)
+                    .ThenInclude(c => c.User)
+                .ToListAsync();
         }
 
-        var newPost = new Post
+        public IActionResult OnPostAddPost(string title, string content)
         {
-            Title = title,
-            Content = content,
-            DatePosted = DateTime.Now,
-            UserId = user.UserId
-        };
+            if (!User.Identity.IsAuthenticated)
+            {
+                return Unauthorized();
+            }
 
-        _context.Posts.Add(newPost);
-        _context.SaveChanges();
+            var user = _context.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
+            if (user == null)
+            {
+                return RedirectToPage("Error");
+            }
 
-        return RedirectToPage();
-    }
+            var newPost = new Post
+            {
+                Title = title,
+                Content = content,
+                DatePosted = DateTime.Now,
+                UserId = user.UserId
+            };
 
-    public IActionResult OnPostAddComment(int postId, string content)
-    {
-        if (!User.Identity.IsAuthenticated)
-        {
-            return Unauthorized();
+            _context.Posts.Add(newPost);
+            _context.SaveChanges();
+
+            return RedirectToPage();
         }
 
-        var user = _context.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
-        if (user == null)
+        public IActionResult OnPostAddComment(int postId, string content)
         {
-            return RedirectToPage("Error");
+            if (!User.Identity.IsAuthenticated)
+            {
+                return Unauthorized();
+            }
+
+            var user = _context.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
+            if (user == null)
+            {
+                return RedirectToPage("Error");
+            }
+
+            var newComment = new Comment
+            {
+                Content = content,
+                DatePosted = DateTime.Now,
+                PostId = postId,
+                UserId = user.UserId
+            };
+
+            _context.Comments.Add(newComment);
+            _context.SaveChanges();
+
+            return RedirectToPage();
         }
-
-        var newComment = new Comment
-        {
-            Content = content,
-            DatePosted = DateTime.Now,
-            PostId = postId,
-            UserId = user.UserId
-        };
-
-        _context.Comments.Add(newComment);
-        _context.SaveChanges();
-
-        return RedirectToPage();
     }
 }
-

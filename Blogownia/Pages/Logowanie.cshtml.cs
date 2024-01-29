@@ -15,13 +15,13 @@ namespace Blogownia.Pages
         public LogowanieModel(ApplicationDbContext context)
         {
             _context = context;
-            LoginData = new LoginViewModel(); // Inicjalizacja LoginData wartością domyślną
+            LoginData = new LoginViewModel(); 
         }
 
         [BindProperty]
         public LoginViewModel LoginData { get; set; }
 
-        public async Task<IActionResult> OnPostAsync()
+        public IActionResult OnPost()
         {
             if (!ModelState.IsValid)
             {
@@ -29,7 +29,7 @@ namespace Blogownia.Pages
             }
 
             var user = _context.Users
-                .FirstOrDefault(u => u.Email == LoginData.Email && u.PasswordHashed == LoginData.PasswordHashed); // Użyj hashowanego hasła
+                .FirstOrDefault(u => u.Email == LoginData.Email && u.PasswordHashed == LoginData.PasswordHashed);
 
             if (user == null)
             {
@@ -37,9 +37,8 @@ namespace Blogownia.Pages
                 return Page();
             }
 
-            // TODO: Ustaw sesję lub ciasteczko użytkownika
 
-            return RedirectToPage("Index"); // Przekieruj na stronę główną po pomyślnym logowaniu
+            return RedirectToPage("Index");
         }
     }
 
@@ -47,13 +46,12 @@ namespace Blogownia.Pages
     {
         [Required]
         [EmailAddress]
-        public string Email { get; set; } = string.Empty; // Inicjalizacja wartością domyślną
+        public string Email { get; set; } = string.Empty; 
 
         [Required]
         [DataType(DataType.Password)]
-        public string Password { get; set; } = string.Empty; // Inicjalizacja wartością domyślną
+        public string Password { get; set; } = string.Empty; 
 
-        // Dodaj pole do przechowywania hasła zahaszowanego (np. do porównywania w bazie danych)
-        public string PasswordHashed { get; set; } = string.Empty; // Inicjalizacja wartością domyślną
+        public string PasswordHashed { get; set; } = string.Empty; 
     }
 }

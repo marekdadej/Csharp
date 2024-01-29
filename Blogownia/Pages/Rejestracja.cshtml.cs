@@ -27,7 +27,6 @@ namespace Blogownia.Pages
                 return Page();
             }
 
-            // Sprawdzenie, czy użytkownik z takim emailem już istnieje
             var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == RegistrationUser.Email);
             if (existingUser != null)
             {
@@ -35,20 +34,16 @@ namespace Blogownia.Pages
                 return Page();
             }
 
-            // Hashowanie hasła
-            RegistrationUser.Password = HashPassword(RegistrationUser.Password);
+            RegistrationUser.PasswordHashed = HashPassword(RegistrationUser.PasswordHashed);
 
-            // Dodanie użytkownika do bazy danych
             _context.Users.Add(RegistrationUser);
             await _context.SaveChangesAsync();
 
-            // Przekierowanie do strony logowania
             return RedirectToPage("/Logowanie");
         }
 
-        private string HashPassword(string password)
+        private static string HashPassword(string password)
         {
-            // Tu użyj rzeczywistego algorytmu hashowania, np. BCrypt
             return BCrypt.Net.BCrypt.HashPassword(password);
         }
     }

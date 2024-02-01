@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Quizlo.Application/1.0.0": {
+        "dependencies": {
+          "Quizlo.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Quizlo.Application.dll": {}
+        }
+      },
+      "Quizlo.Domain/1.0.0": {
+        "runtime": {
+          "Quizlo.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Quizlo.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Quizlo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

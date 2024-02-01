@@ -1,0 +1,12 @@
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Domain/obj/Debug/net8.0/Quizlo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Domain/obj/Debug/net8.0/Quizlo.Domain.AssemblyInfoInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Domain/obj/Debug/net8.0/Quizlo.Domain.AssemblyInfo.cs
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Domain/obj/Debug/net8.0/Quizlo.Domain.csproj.CoreCompileInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Domain/obj/Debug/net8.0/Quizlo.Domain.sourcelink.json
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Domain/bin/Debug/net8.0/Quizlo.Domain.deps.json
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Domain/bin/Debug/net8.0/Quizlo.Domain.dll
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Domain/bin/Debug/net8.0/Quizlo.Domain.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Domain/obj/Debug/net8.0/Quizlo.Domain.dll
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Domain/obj/Debug/net8.0/refint/Quizlo.Domain.dll
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Domain/obj/Debug/net8.0/Quizlo.Domain.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Domain/obj/Debug/net8.0/ref/Quizlo.Domain.dll

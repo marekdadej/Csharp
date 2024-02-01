@@ -1,0 +1,16 @@
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/bin/Debug/net8.0/Quizlo.Application.deps.json
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/bin/Debug/net8.0/Quizlo.Application.dll
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/bin/Debug/net8.0/Quizlo.Application.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/bin/Debug/net8.0/Quizlo.Domain.dll
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/bin/Debug/net8.0/Quizlo.Domain.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/obj/Debug/net8.0/Quizlo.Application.csproj.AssemblyReference.cache
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/obj/Debug/net8.0/Quizlo.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/obj/Debug/net8.0/Quizlo.Application.AssemblyInfoInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/obj/Debug/net8.0/Quizlo.Application.AssemblyInfo.cs
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/obj/Debug/net8.0/Quizlo.Application.csproj.CoreCompileInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/obj/Debug/net8.0/Quizlo.Application.sourcelink.json
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/obj/Debug/net8.0/Quizlo.Application.csproj.CopyComplete
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/obj/Debug/net8.0/Quizlo.Application.dll
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/obj/Debug/net8.0/refint/Quizlo.Application.dll
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/obj/Debug/net8.0/Quizlo.Application.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Quizlo.MVC/Quizlo.Application/obj/Debug/net8.0/ref/Quizlo.Application.dll

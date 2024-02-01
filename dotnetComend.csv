@@ -1,0 +1,119 @@
+1. dotnet new  
+Używane do tworzenia nowego projektu, pliku konfiguracji lub rozwiązania na podstawie szablonu.
+
+2. dotnet build
+Kompiluje projekt i wszystkie jego zależności.
+
+3. dotnet run
+Uruchamia kod źródłowy bezpośrednio bez wymagania jego kompilacji.
+
+4. dotnet test
+Uruchamia testy jednostkowe w projekcie przy użyciu test runnera określonego w projekcie.
+
+5. dotnet publish
+Publikuje aplikację i jej zależności w folderze gotowym do dystrybucji.
+
+6. dotnet add package 
+Dodaje pakiet NuGet do projektu.
+
+7. dotnet restore
+Przywraca zależności i narzędzia projektu.
+
+8. dotnet tool install 
+Instaluje narzędzia .NET, które można następnie wywoływać.
+
+9. dotnet ef 
+Polecenia dla Entity Framework Core, takie jak aktualizacje bazy danych, tworzenie migracji itp.
+
+10. dotnet sln
+Umożliwia zarządzanie plikami rozwiązania (sln).
+
+11. dotnet list reference
+Wyświetla listę odniesień projektu.
+
+12. dotnet remove reference 
+Usuwa odniesienie z projektu.
+
+13. dotnet add reference 
+Dodaje odniesienie do projektu.
+
+14. dotnet clean
+Czyści pliki wyjściowe projektu.
+
+15. dotnet pack 
+Tworzy pakiet NuGet z projektu.
+
+16. dotnet migrate
+Konwertuje projekt z projektu .NET Core starszej wersji do aktualnej.
+
+17. dotnet nuget locals
+Zarządza lokalnymi danymi NuGet, takimi jak pamięć podręczna i pliki tymczasowe.
+
+18. dotnet nuget push
+Wysyła pakiet do serwera NuGet.
+
+19. dotnet nuget delete
+Usuwa lub cofa pakiet z serwera NuGet.
+
+20. dotnet dev-certs
+Zarządza certyfikatami dla programowania i testowania.
+
+21. dotnet user-secrets
+Zarządza poufnymi danymi w rozwoju aplikacji.
+
+22. dotnet sql-cache 
+Zarządza pamięcią podręczną dystrybucji SQL Server.
+
+23. dotnet bundle
+Optymalizuje rozmiar plików w aplikacji .NET.
+
+24. dotnet watch
+Uruchamia aplikację i ponownie ją kompiluje przy wykryciu zmian w plikach.
+
+25. dotnet format
+Formatuje kod źródłowy według określonych standardów.
+
+26. dotnet tool update
+Aktualizuje globalnie zainstalowane narzędzie .NET.
+
+27. dotnet tool list
+Wyświetla listę zainstalowanych narzędzi .NET.
+
+28. dotnet tool uninstall
+Odinstalowuje zainstalowane narzędzie .NET.
+
+29. dotnet tool run
+Uruchamia lokalne narzędzie .NET.
+
+30. dotnet tool restore
+Przywraca narzędzia .NET określone w manifeście narzędzia.
+
+31. dotnet msbuild
+Uruchamia program MSBuild na projekcie.
+
+32. dotnet vstest
+Uruchamia testy za pomocą platformy testowej Visual Studio.
+
+33. dotnet store
+Przechowuje zestaw kodów dla późniejszego użycia.
+
+34. dotnet workload install
+Instaluje określone środowisko pracy.
+
+35. dotnet workload update
+Aktualizuje zainstalowane środowiska pracy.
+
+36. dotnet workload list
+Wyświetla zainstalowane środowiska pracy.
+
+37. dotnet workload uninstall
+Odinstalowuje określone środowisko pracy.
+
+38. dotnet workload repair
+Naprawia zainstalowane środowiska pracy.
+
+39. dotnet workload search
+Szuka dostępnych środowisk pracy do instalacji.
+
+40. dotnet workload restore
+Przywraca manifesty środowiska pracy.

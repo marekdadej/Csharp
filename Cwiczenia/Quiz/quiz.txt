@@ -1,0 +1,120 @@
+Które miasto z podanych jest stolicą Francji?
+Marsylia
+Lyon
+Paryż
+Nicea
+c
+Które miasto z podanych jest stolicą Japoni?
+Osaka
+Tokio
+Kyoto
+Sapporo
+b
+Które miasto z podanych jest stolicą Australii?
+Sydney
+Melbourne
+Canberra
+Perth
+c
+Które miasto z podanych jest stolicą Brazylii?
+Rio de Janeiro
+Brasília
+São Paulo
+Salvador
+b
+Które miasto z podanych jest stolicą Kanady?
+Toronto
+Montreal
+Ottawa
+Vancouver
+c
+Które miasto z podanych jest stolicą Niemiec?
+Monachium
+Hamburg
+Frankfurt
+Berlin
+d
+Które miasto z podanych jest stolicą Włoch?
+Wenecja
+Rzym
+Mediolan
+Neapol
+b
+Które miasto z podanych jest stolicą Hiszpanii?
+Barcelona
+Madryt
+Sewilla
+Walencja
+b
+Które miasto z podanych jest stolicą Egiptu?
+Kair
+Aleksandria
+Luksor
+Giza
+a
+Które miasto z podanych jest stolicą Indii?
+Mumbai
+Bangalore
+Nowe Delhi
+Kalkuta
+c
+Które miasto z podanych jest stolicą Rosji?
+Petersburg
+Moskwa
+Jekaterynburg
+Nowosybirsk
+b
+Które miasto z podanych jest stolicą Chin?
+Szanghaj
+Hongkong
+Kanton
+Pekin
+d
+Które miasto z podanych jest stolicą Stanów Zjednoczonych?
+Waszyngton
+Nowy Jork
+Los Angeles
+Chicago
+a
+Które miasto z podanych jest stolicą Wielkiej Brytanii?
+Londyn
+Manchester
+Liverpool
+Edynburg
+a
+Które miasto z podanych jest stolicą Meksyku?
+Guadalajara
+Monterrey
+Meksyk
+Puebla
+c
+Które miasto z podanych jest stolicą Sri Lanki?
+Kandy
+Colombo
+Sri Jayawardenepura Kotte
+Galle
+c
+Które miasto z podanych jest stolicą Turkmenistanu?
+Mary
+Daşoguz
+Turkmenabat
+Aszchabad
+d
+Które miasto z podanych jest stolicą Kenii?
+Mombasa
+Nairobi
+Kisumu
+Nakuru
+b
+Które miasto z podanych jest stolicą Malty?
+Mdina
+Valletta
+Birkirkara
+Sliema
+b
+Które miasto z podanych jest stolicą Kuby?
+Santiago de Cuba
+Camagüey
+Holguín
+Hawana
+d

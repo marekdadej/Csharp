@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Strona główna";
+}
+
+<div class="text-center">
+    <h1 class="display-1">Witaj w Świecie Quizów!</h1>
+    <p class="lead">Testuj swoją wiedzę i baw się dobrze! Wybierz jeden z dostępnych quizów poniżej:</p>
+    
+    <div>
+        <a asp-area="" asp-controller="Home" asp-action="Matematyczny" class="btn btn-primary m-2">Quiz z Matematyki</a>
+        <a asp-area="" asp-controller="Home" asp-action="Historyczny" class="btn btn-secondary m-2">Quiz z Historii</a>
+        <a asp-area="" asp-controller="Home" asp-action="Geograficzny" class="btn btn-success m-2">Quiz z Geografii</a>
+        <a asp-area="" asp-controller="Home" asp-action="Biologiczny" class="btn btn-danger m-2">Quiz z Biologii</a>
+        <a asp-area="" asp-controller="Home" asp-action="Wyniki" class="btn btn-info m-2">Sprawdź swoje Wyniki</a>
+    </div>
+
+    <div class="mt-4">
+        <p class="challenge-text">Czy jesteś gotowy/a na wyzwanie? Spróbuj swoich sił w różnych dziedzinach i sprawdź, jak wiele możesz się nauczyć!</p>
+    </div>
+</div>
+
+

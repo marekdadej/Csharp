@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Matematyka";
+}
+
+<h2>Quiz z Matematyki</h2>
+
+<div id="quizContainer">
+    <div class="progress">
+        Pytanie <span id="currentQuestion">1</span> z <span id="totalQuestions">@Model.Entities.</span>
+    </div>
+
+    <form method="post" id="mathQuizForm">
+        @for(int i = 0; i < Model.Questions.Count; i++)
+        {
+            <div class="question">
+                <p>@Model.Questions[i].Text</p>
+                @foreach(var option in Model.Questions[i].Options)
+                {
+                    <input type="radio" name="@($"answer{i}")" value="@option" class="option" /> @option <br />
+                }
+            </div>
+        }
+        <input type="submit" value="Zakończ quiz" />
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/path/to/your/validationScript.js"></script>
+}

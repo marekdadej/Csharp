@@ -1,0 +1,1 @@
+Program Quizlo, który jest w fazie rozwoju, ma na celu stworzenie  platformy quizowej umożliwiającej użytkownikom wybieranie jednego z 4 quizow i rozwiazywanie ich, oraz wyswietlanie wyniku kazdego zakonczonego quizu, jednakże obecnie nadal wymaga dopracowania funkcjonalności oraz rozwiązania istniejących błędów w kodzie, aby zapewnić stabilność i użyteczność platformy.

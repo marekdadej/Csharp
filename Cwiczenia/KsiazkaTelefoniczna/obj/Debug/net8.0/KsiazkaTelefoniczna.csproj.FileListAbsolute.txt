@@ -1,0 +1,15 @@
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/bin/Debug/net8.0/KsiazkaTelefoniczna
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/bin/Debug/net8.0/KsiazkaTelefoniczna.deps.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/bin/Debug/net8.0/KsiazkaTelefoniczna.runtimeconfig.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/bin/Debug/net8.0/KsiazkaTelefoniczna.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/bin/Debug/net8.0/KsiazkaTelefoniczna.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/obj/Debug/net8.0/KsiazkaTelefoniczna.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/obj/Debug/net8.0/KsiazkaTelefoniczna.AssemblyInfoInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/obj/Debug/net8.0/KsiazkaTelefoniczna.AssemblyInfo.cs
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/obj/Debug/net8.0/KsiazkaTelefoniczna.csproj.CoreCompileInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/obj/Debug/net8.0/KsiazkaTelefoniczna.sourcelink.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/obj/Debug/net8.0/KsiazkaTelefoniczna.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/obj/Debug/net8.0/refint/KsiazkaTelefoniczna.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/obj/Debug/net8.0/KsiazkaTelefoniczna.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/obj/Debug/net8.0/KsiazkaTelefoniczna.genruntimeconfig.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/KsiazkaTelefoniczna/obj/Debug/net8.0/ref/KsiazkaTelefoniczna.dll

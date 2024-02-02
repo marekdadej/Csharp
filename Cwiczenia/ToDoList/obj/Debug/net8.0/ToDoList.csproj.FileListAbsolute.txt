@@ -1,0 +1,15 @@
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/bin/Debug/net8.0/ToDoList
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/bin/Debug/net8.0/ToDoList.deps.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/bin/Debug/net8.0/ToDoList.runtimeconfig.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/bin/Debug/net8.0/ToDoList.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/bin/Debug/net8.0/ToDoList.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/obj/Debug/net8.0/ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/obj/Debug/net8.0/ToDoList.AssemblyInfoInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/obj/Debug/net8.0/ToDoList.AssemblyInfo.cs
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/obj/Debug/net8.0/ToDoList.csproj.CoreCompileInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/obj/Debug/net8.0/ToDoList.sourcelink.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/obj/Debug/net8.0/ToDoList.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/obj/Debug/net8.0/refint/ToDoList.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/obj/Debug/net8.0/ToDoList.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/obj/Debug/net8.0/ToDoList.genruntimeconfig.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/ToDoList/obj/Debug/net8.0/ref/ToDoList.dll

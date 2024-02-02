@@ -1,0 +1,15 @@
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/bin/Debug/net8.0/Kantor
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/bin/Debug/net8.0/Kantor.deps.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/bin/Debug/net8.0/Kantor.runtimeconfig.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/bin/Debug/net8.0/Kantor.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/bin/Debug/net8.0/Kantor.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/obj/Debug/net8.0/Kantor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/obj/Debug/net8.0/Kantor.AssemblyInfoInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/obj/Debug/net8.0/Kantor.AssemblyInfo.cs
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/obj/Debug/net8.0/Kantor.csproj.CoreCompileInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/obj/Debug/net8.0/Kantor.sourcelink.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/obj/Debug/net8.0/Kantor.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/obj/Debug/net8.0/refint/Kantor.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/obj/Debug/net8.0/Kantor.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/obj/Debug/net8.0/Kantor.genruntimeconfig.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Kantor/obj/Debug/net8.0/ref/Kantor.dll

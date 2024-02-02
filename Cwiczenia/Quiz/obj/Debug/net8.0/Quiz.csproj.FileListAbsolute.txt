@@ -1,0 +1,15 @@
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/bin/Debug/net8.0/Quiz
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/bin/Debug/net8.0/Quiz.deps.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/bin/Debug/net8.0/Quiz.runtimeconfig.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/bin/Debug/net8.0/Quiz.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/bin/Debug/net8.0/Quiz.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/obj/Debug/net8.0/Quiz.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/obj/Debug/net8.0/Quiz.AssemblyInfoInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/obj/Debug/net8.0/Quiz.AssemblyInfo.cs
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/obj/Debug/net8.0/Quiz.csproj.CoreCompileInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/obj/Debug/net8.0/Quiz.sourcelink.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/obj/Debug/net8.0/Quiz.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/obj/Debug/net8.0/refint/Quiz.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/obj/Debug/net8.0/Quiz.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/obj/Debug/net8.0/Quiz.genruntimeconfig.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/Quiz/obj/Debug/net8.0/ref/Quiz.dll

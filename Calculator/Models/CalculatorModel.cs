@@ -12,7 +12,7 @@ namespace Calculator.Models
         public float wynik { get; set; }
         public float? x1 { get; set; }
         public float? x2 { get; set; }
-        public string ErrorMessage { get; set; }
+        public string ErrorMessage { get; set; } = default!;
         public List<string> History { get; private set; } = new List<string>();
         public bool ShowCField => oper == "delta";
 

@@ -1,0 +1,15 @@
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/bin/Debug/net8.0/GeneratorHasel
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/bin/Debug/net8.0/GeneratorHasel.deps.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/bin/Debug/net8.0/GeneratorHasel.runtimeconfig.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/bin/Debug/net8.0/GeneratorHasel.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/bin/Debug/net8.0/GeneratorHasel.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/obj/Debug/net8.0/GeneratorHasel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/obj/Debug/net8.0/GeneratorHasel.AssemblyInfoInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/obj/Debug/net8.0/GeneratorHasel.AssemblyInfo.cs
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/obj/Debug/net8.0/GeneratorHasel.csproj.CoreCompileInputs.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/obj/Debug/net8.0/GeneratorHasel.sourcelink.json
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/obj/Debug/net8.0/GeneratorHasel.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/obj/Debug/net8.0/refint/GeneratorHasel.dll
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/obj/Debug/net8.0/GeneratorHasel.pdb
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/obj/Debug/net8.0/GeneratorHasel.genruntimeconfig.cache
+/Users/marekdadej/Desktop/Projekty/CS/Cwiczenia/GeneratorHasel/obj/Debug/net8.0/ref/GeneratorHasel.dll

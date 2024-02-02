@@ -1,0 +1,1 @@
+Program Blogownia i program Quizlo.MVC w fazie rozwoju.
